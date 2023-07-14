@@ -34,7 +34,7 @@ export default {
 
     created() {
         // console.log(typeof this.time)
-        // this.startInterval()
+        this.startInterval()
     },
     computed: {
     }
