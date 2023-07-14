@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(171, 166, 166);
+}
+
+.show-time {
+    position: relative;
+    background-color: lightblue;
+    padding: 10px;
+    margin-block-end: 10px;
+}
+
+.playground img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 120px;
+}
+
+.simple-counter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: darkseagreen;
+    padding: 10px;
+    margin-block-end: 10px;
+    border-bottom: 1px solid orange;
+}
+
+.low {
+    color: red;
+}
+
+.high {
+    color: orange;
+}
+
+.pet-list {
+    background-color: rgb(98, 152, 151);
+    padding: 10px;
+}
+
+.pet-list ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.pet-list ul li {
+    display: grid;
+    background-color: rgb(156, 156, 107);
+    padding: 10px;
+}
+
+.pet-list ul li button {
+    justify-self: end;
+}
