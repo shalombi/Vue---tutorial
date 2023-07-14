@@ -2,12 +2,71 @@ body {
     background-color: rgb(171, 166, 166);
 }
 
+/* Show time */
+.season-img {
+    max-width: 80px;
+}
+
 .show-time {
     position: relative;
     background-color: lightblue;
     padding: 10px;
     margin-block-end: 10px;
 }
+
+
+
+/* Count down */
+.count-down {
+    background-color: bisque;
+    padding: 12px;
+}
+
+/* Who-watch */
+
+.who-watch {
+    background-color: cadetblue;
+}
+
+
+.who-watch ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.preview-watcher {
+    background-color: bisque;
+    padding: 8px;
+
+}
+
+
+.brown {
+    color: brown;
+}
+
+.black {
+    color: black;
+}
+
+.selected {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(20, 12, 34);
+    color: antiquewhite;
+}
+
+.img-url {
+    max-width: 160px;
+}
+
+
 
 .playground img {
     position: absolute;
